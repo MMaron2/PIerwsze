@@ -5,14 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     Podaj imię i nazwisko: <input type="text" class="imie_nazwisko"> <br>
-    <input type="radio" class="klasa" name="klasa" value="1A" onclick="wprowadz()" checked> 1A <br>
-    <input type="radio" class="klasa" name="klasa" value="2A" onclick="wprowadz()"> 2A <br>
-    <input type="radio" class="klasa" name="klasa" value="3A" onclick="wprowadz()"> 3A <br>
-    <input type="radio" class="klasa" name="klasa" value="4A" onclick="wprowadz()"> 4A <br>
-    <span class="wynik"></span>
+    <div class="main-box">
+        <div>
+            <input type="radio" class="klasa" name="klasa" value="1A" checked> 1A <br>
+            <input type="radio" class="klasa" name="klasa" value="2A"> 2A <br>
+            <input type="radio" class="klasa" name="klasa" value="3A"> 3A <br>
+            <input type="radio" class="klasa" name="klasa" value="4A"> 4A <br>
+        </div>
+        <div>
+            <input type="checkbox" name="zain" class="zain" name="zain" value="muzyka"> Muzyka <br>
+            <input type="checkbox" name="zain" class="zain" name="zain" value="gry"> gry <br>
+            <input type="checkbox" name="zain" class="zain" name="zain" value="sport"> sport <br>
+            <input type="checkbox" name="zain" class="zain" name="zain" value="taniec"> taniec <br>
+            
+        </div>
+    </div>
+    <button onclick="wprowadz()">Wprowadz</button>
+    <span class="wynik"></span> <br>
     <script src="code2.js"></script>
 </body>
 </html>
