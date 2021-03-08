@@ -1,0 +1,7 @@
+.main-box {
+    display: flex;
+    flex-direction: row;
+}
+div {
+    padding-right: 40px;
+}
